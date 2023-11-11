@@ -5,21 +5,21 @@ public class Book {
     private String title;
     private String author;
 
-    public Book(int number_of_pages, String title, String author) {
+    public Book(int number_of_pages, String title, String author){
         this.number_of_pages = number_of_pages;
         this.title = title;
         this.author = author;
     }
 
-    public void page_turning(){
+    public void pageTurning(){
         System.out.println("Next page...");
     }
 
-    public void open_book(){
+    public void openBook(){
         System.out.println("Opening the book...");
     }
 
-    public void closing_book(){
+    public void closingBook(){
         System.out.println("Closing the book...");
     }
 }

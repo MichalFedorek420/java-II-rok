@@ -13,6 +13,8 @@ static int days(){
     for (int i = 1; i < month; i++) {
         totalDays += daysInMonth[i];
     }
+
+    return -1;
 }
     public static void main(String[] args) {
         System.out.println(myDate());

@@ -25,6 +25,6 @@ public class Smartphone {
         System.out.println("making a photo...");
     }
     public String getModel(){
-        return model;
+        return this.model;
     }
 }
