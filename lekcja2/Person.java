@@ -21,6 +21,15 @@ public class Person {
     }
     public int calculateBMI(){
         int x = (weight * 10000) / (height * height );
+
+        if (x > 24.9){
+            System.out.println("BMI zbyt wysokie");
+        }else if (x < 18.5){
+            System.out.println("BMI zbyt niskie");
+        }else {
+            System.out.println("Twoje BMI jest poprawne");
+        }
+
         return x;
     }
     public void displayRecord() {
