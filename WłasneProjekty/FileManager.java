@@ -15,6 +15,6 @@ public class FileManager {
 
     public static void main(String[] args) {
         FileManager fileManager = new FileManager();
-        fileManager.ListFilesInDirectory("420Fedwassup:/Workspace/IIrokJava/lekcja2");
+        fileManager.ListFilesInDirectory("/Workspace/IIrokJava/lekcja2");
     }//gowno chujowe nie chce dzialaxc
 }
